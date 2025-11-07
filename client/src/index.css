@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer base {
+    body {
+        @apply bg-black text-white font-sans relative
+        h-screen overflow-x-hidden
+    }
+}
