@@ -49,8 +49,8 @@ This project was created by following a tutorial on YouTube and then extended to
 Clone the project:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Andy-Ops254/react-portfolio
+cd react-portfolio
 ```
 
 Install dependencies:
@@ -65,7 +65,7 @@ Run the development server:
 npm run dev
 ```
 
-## 🎛️ **Spline Integration**
+##  **Spline Integration**
 
 ```jsx
 import { Spline } from '@splinetool/react-spline';
@@ -87,14 +87,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 AOS.init();
-```
-
-Apply animations via attributes:
-
-```html
-<div data-aos="fade-up">
-  Animated Content
-</div>
 ```
 
 These animations help bring the website to life through scroll-based transitions.
