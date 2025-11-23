@@ -1,6 +1,19 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Header from './Header'
+import Hero from './Hero'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 function App() {
+
+  useEffect (() => {
+    AOS.init({
+      duration:1500,
+      once: true,
+    })
+  })
+
   return (
     <main>
       {/* Gradient photo */}
@@ -10,7 +23,11 @@ function App() {
       {/* Blur effect */}
       <div className='h-0 w-160 absolute top-[20%]
       right-[-5%] shadow-[0_0_900px_20px_#e99b63] rotate-[-30deg] -z-10'></div>
+
+      <Header/>
+      <Hero />
     </main>
+    
   )
 }
 
