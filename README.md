@@ -29,7 +29,6 @@ This project was created by following a tutorial on YouTube and then extended to
 ###  **Static Site**
 
 * No backend needed
-* Easy deployment on platforms like Vercel, Netlify, or GitHub Pages
 
 ---
 
